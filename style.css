@@ -1,0 +1,46 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 250px;
+}
+
+.grid {
+  width: 400px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #a1c5ff;
+}
+
+.grid div {
+  height: 40px;
+  width: 40px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+
+.mini-grid {
+  margin-left: 100px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #a1c5ff;
+}
+
+.mini-grid div {
+  height: 40px;
+  width: 40px;
+}
